@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangingShot - Select Area</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 ChangingShot</h1>
+            <p>Monitor website changes easily</p>
+        </div>
+
+        <div class="status" id="status">Ready to select an area</div>
+
+        <div class="buttons">
+            <button id="selectBtn" class="btn btn-primary">Select Area on Website</button>
+            <button id="settingsBtn" class="btn btn-secondary">Settings</button>
+        </div>
+
+        <div class="monitored-areas">
+            <h3>📍 Monitored Areas</h3>
+            <div id="areasList" class="areas-list">
+                <p class="empty">No areas monitored yet</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <small>v1.0.0</small>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
