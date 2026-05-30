@@ -1,0 +1,22 @@
+{
+  "name": "changingshot",
+  "version": "1.0.0",
+  "description": "Monitor specific areas on websites with a floating desktop window",
+  "workspaces": [
+    "backend",
+    "web-dashboard"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install --workspace=backend && npm install --workspace=web-dashboard",
+    "dev": "npm run dev --workspace=backend & npm run dev --workspace=web-dashboard",
+    "build": "npm run build --workspace=backend && npm run build --workspace=web-dashboard"
+  },
+  "keywords": [
+    "monitor",
+    "desktop-app",
+    "tauri",
+    "browser-extension"
+  ],
+  "author": "Glaciercold101",
+  "license": "MIT"
+}
